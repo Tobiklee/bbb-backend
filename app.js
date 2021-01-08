@@ -8,13 +8,13 @@ module.exports = async function (fastify, opts) {
 
   // MongoDB plugin
   // https://github.com/fastify/fastify-mongodb
-  fastify.register(require('fastify-mongodb'), {
+  // fastify.register(require('fastify-mongodb'), {
     // force to close the mongodb connection when app stopped
     // the default value is false
-    forceClose: true,
+    // forceClose: true,
     
-    url: 'mongodb://mongo/mydb'
-  })
+    // url: 'mongodb://mongo/mydb'
+  // })
 
   // Enable CORS for the application
   // https://github.com/fastify/fastify-cors
